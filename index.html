@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tile></tile>
+        <link rel= "stylesheet" href= "bulma.css">
+        <link rel= "stylesheet" href="gameStyle.css">
+        
+    </head>
+    <body>
+        <section class="hero is-primary">
+            <div class="hero-body">
+                <div class="container">
+                        <h1 class="title">2048</h1>
+                        <h2 class="subtitle">but I kept writing 2084 in my code</h2>
+                </div>
+
+            </div>
+        </section>
+
+        <section class= "section"> 
+            <div class="container" id="root">
+            </div>
+        </section>
+
+        <section>
+            <nav class= 'level is-mobile'>
+                <div class='level-item has-text-centered'>
+                    <div>
+                        <p class='heading' id='score'>Score</p>
+                    </div>
+                </div>
+
+                <div class= 'level-item has-text-centered'>
+                    <div>
+                        <button class='button is-primary is-light is-rounded' id='newGame'>New Game</button>
+                    </div>
+                </div>
+
+                <div class= 'level-item has-text-centered'>
+                        <div>
+                            <p class ='subtitle'> Use the arrow keys to combine the tiles to get 2048!</p>
+                        </div>
+                </div>
+
+                <div class= 'level-item has-text-centered'>
+                    <div id='winOrLose'>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+
+            
+        </section>
+        <br>
+        <section class='hero is-primary'>
+            <div class='hero-body'>
+            </div>
+        </section>
+    </body>
+    <script src='node_modules/jquery/dist/jquery.js'></script>
+    <script src='engine/view.js' type='module'></script>
+</html>

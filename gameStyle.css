@@ -1,0 +1,108 @@
+#root{
+    border: #4A4A4A;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 25px;
+    width: 420px;
+    height: 410px;
+}
+
+.num{
+    text-align: center;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.colorTile{
+    border: #4A4A4A;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    font-size: 40px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    
+
+}
+
+h1,h2{
+    text-align: center;
+}
+
+#tile2{
+    background:  #207CEE;
+}
+
+#tile4{
+    background: #00D1B2; 
+}
+
+#tile8{
+    background: #23D160;
+}
+
+#tile16{
+    background: rgb(155, 216, 43);
+}
+
+#tile32{
+    background: #FFDD57;
+
+}
+
+#tile64{
+    background: rgb(226, 133, 27);
+
+}
+
+#tile128{
+    background:rgb(202, 90, 75);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 7px;
+    padding-right: 2px;
+    
+
+}
+
+#tile256{
+    background: rgb(202, 67, 119);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 7px;
+
+
+}
+
+#tile512{
+    background: rgb(177, 72, 168);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 8px;
+
+
+    
+
+}
+
+#tile1024{
+    background: rgb(107, 60, 161);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 12px;
+    padding-right: 2px;
+
+}
+
+#tile2048{
+    background: rgb(58, 43, 143);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 12px;
+    padding-right: 2px;
+
+
+}
